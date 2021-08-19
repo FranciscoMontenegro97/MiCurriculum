@@ -1,0 +1,37 @@
+.DivRedondo{
+    border-radius: 50%;
+    border: 2px solid #f8f9fa;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+}.DivRedondo img{
+    width: 100%;
+    height: 100%;
+}
+.DivDeLista{
+    border-top: 2px solid #f8f9fa;
+}
+ul{
+    list-style:none;
+}
+li{
+    list-style:none;
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    .DivRedondo{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .DivRedondo{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .DivRedondo{
+        height: 300px;
+        width: 150px;
+    }
+}
