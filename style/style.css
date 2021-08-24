@@ -25,7 +25,13 @@ li{
 }
 @media screen and (min-width:300px) and (max-width:578px){
     .DivRedondo{
-        height: 400px;
-        width: 400px;
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (min-width:100px) and (max-width:299px){
+    .DivRedondo{
+        height: 100%;
+        width: 100%;
     }
 }
